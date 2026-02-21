@@ -1,10 +1,10 @@
 # Hi there, I’m **Steven Enamakel** 👋
 
-I’m a builder in the Web3 space focused on decentralized finance, blockchain protocols, and open-source software. I create, contribute, and collaborate on tools that drive innovation in crypto, tokenomics, and cross-chain systems.
+I’m an engineer specializing in deep-tech, web3, AI. I've been a builder first and a founder second. I'm an optimist and a super workaholic. I sometimes work almost 40 hours straight..
 
-### 🚀 What I Do
+### 🚀 What I've built?
 
-I’m a web3 founder and engineer with experience building protocols, developer tools, and blockchain products. I’ve worked across markets and teams to bring decentralized ideas to life.
+Over the course of the last 10 years I've built many projects in the past. With each project reaching bigger heights than the one before it (and eventually shutting down at a bigger scale as well 😂). But I take all of these expereinces as learnings to improve myself and do better from here on.
 
 - 🌐 Creator of **MahaDAO**, a decentralized valuecoin ecosystem ($MAHA) and suite of financial primitives  [oai_citation:0‡GitHub](https://github.com/senamakel?utm_source=chatgpt.com)
 - 💻 Founder of **Vezures**, a blockchain development studio focused on delivering custom & open tech solutions  [oai_citation:1‡Tracxn](https://tracxn.com/d/companies/vezures/__oACishjNK6Ro3UxVOLnjUurXYee9gaibgwNVDvh37XE?utm_source=chatgpt.com)
@@ -18,10 +18,6 @@ I’m a web3 founder and engineer with experience building protocols, developer 
 - Decentralized finance (DeFi) and protocol design
 - Full-stack development with focus on blockchain integrations
 - Community-first open source projects
-
-### 🛠️ Technologies I’ve Worked With
-
-Solidity • TypeScript • JavaScript • Hardhat • Ethers.js • Web3 • Node.js • React • Cross-chain tooling and data
 
 ### 📌 Projects
 
