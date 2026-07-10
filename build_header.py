@@ -32,7 +32,7 @@ BG = "#16171b"
 FONT_SIZE = 15
 CHAR_W = FONT_SIZE * 0.6                 # JetBrains Mono advance = 0.6em -> 9.0px
 
-H = 646
+H = 590
 V_MARGIN = 30
 PH = H - 2 * V_MARGIN
 PW = round(PH * IMG_W / IMG_H)
@@ -42,7 +42,7 @@ PY = V_MARGIN
 X = PX + PW + 26                         # right column origin (px)
 Y0 = 40
 STEP = 22
-RC = 56                                  # right-align column for values (chars); matches today.py
+RC = 64                                  # right-align column for values (chars); matches today.py
 RULE_END = X + RC * CHAR_W
 
 
@@ -85,18 +85,16 @@ start = col_px(len("steven@enamakel") + 1)
 lines.append(f'<line x1="{start:.0f}" y1="{y - 5}" x2="{RULE_END:.0f}" y2="{y - 5}" stroke="#30363d" stroke-width="1"/>')
 rows.append(f'<tspan x="{X}" y="{y}" fill="#c9d1d9">steven@enamakel</tspan>'); y += STEP
 
-rows.append(kv(y, "OS", "macOS, Linux, Rust")); y += STEP
-rows.append(kv(y, "Uptime", "XX years, XX months, XX days", "age_data_dots", "age_data")); y += STEP
+rows.append(kv(y, "OS", "macOS, DigitalOcean")); y += STEP
+rows.append(kv(y, "Uptime", "XX years, XX months", "age_data_dots", "age_data")); y += STEP
 rows.append(kv(y, "Host", "Builder first, founder second")); y += STEP
-rows.append(kv(y, "Kernel", "deep-tech · web3 · AI")); y += STEP
-y += STEP
-rows.append(kv(y, "Languages.Programming", "Rust, TypeScript, Solidity")); y += STEP
-rows.append(kv(y, "Languages.Systems", "Python, C, Move, Bash")); y += STEP
+rows.append(kv(y, "Kernel", "Computer Science · Math · Economics")); y += STEP
+rows.append(kv(y, "Languages", "Hindi, English, Malayalam, Arabic")); y += STEP
 y += STEP
 
-rows.append(section(y, "Focus")); y += STEP
-rows.append(kv(y, "OpenHuman", "Personal AI super-intelligence")); y += STEP
-rows.append(kv(y, "DeFi", "ZeroLend · MahaDAO · ARTH")); y += STEP
+rows.append(section(y, "AFK")); y += STEP
+rows.append(kv(y, "Hobbies", "scuba diving, swimming, chess")); y += STEP
+rows.append(kv(y, "Lived", "Dubai, Mumbai, Kuwait, London, San Francisco, Kerala")); y += STEP
 y += STEP
 
 rows.append(section(y, "Contact")); y += STEP

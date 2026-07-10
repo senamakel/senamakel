@@ -9,7 +9,11 @@ on:
     branches: [main]
     paths:
       - "today.py"
+      - "render.py"
+      - "build_header.py"
+      - "header.svg"
       - "image.png"
+      - "fonts/**"
       - ".github/workflows/main.yml"
 
 # Needed so the workflow can commit the regenerated header.svg back to the repo
@@ -34,19 +38,24 @@ jobs:
           cache: pip
 
       - name: Install dependencies
-        run: pip install -r requirements.txt
+        run: |
+          pip install -r requirements.txt
+          python -m playwright install --with-deps chromium
 
-      - name: Generate header stats
+      - name: Refresh stats in header.svg
         env:
           ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
           USER_NAME: ${{ github.repository_owner }}
         run: python today.py
 
+      - name: Rasterize header.svg -> header.png
+        run: python render.py
+
       - name: Commit updated header
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add header.svg cache
+          git add header.png header.svg cache
           if git diff --staged --quiet; then
             echo "No changes to commit."
           else

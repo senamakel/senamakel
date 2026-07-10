@@ -1,8 +1,8 @@
 <p align="center">
-  <img src="./header.svg" alt="Steven Enamakel — live GitHub profile card" width="100%">
+  <img src="./header.png" alt="Steven Enamakel — live GitHub profile card" width="100%">
 </p>
 
-<!-- The card above is regenerated daily by .github/workflows/main.yml via today.py -->
+<!-- The card above is regenerated daily by .github/workflows/main.yml (today.py -> render.py) -->
 
 # Hi there, I'm **Steven Enamakel** 👋
 

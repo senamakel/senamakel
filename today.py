@@ -25,9 +25,8 @@ from lxml import etree
 # ---------------------------------------------------------------------------
 # CONFIG — edit these
 # ---------------------------------------------------------------------------
-# Your birthday, used for the live "Uptime" counter. Format: (year, month, day).
-# TODO: set your real birthday here.
-BIRTHDAY = datetime.datetime(1990, 1, 1)
+# Birth month, used for the live "Uptime" counter (day omitted by request).
+BIRTHDAY = datetime.datetime(1995, 3, 1)
 SVG_FILE = "header.svg"
 # ---------------------------------------------------------------------------
 
@@ -41,13 +40,11 @@ OWNER_ID = None
 
 
 def daily_readme(birthday):
-    """Returns time since birth, e.g. 'XX years, XX months, XX days'."""
+    """Returns time since birth in years and months, e.g. 'XX years, XX months'."""
     diff = relativedelta.relativedelta(datetime.datetime.today(), birthday)
-    return "{} {}, {} {}, {} {}{}".format(
+    return "{} {}, {} {}".format(
         diff.years, "year" + format_plural(diff.years),
-        diff.months, "month" + format_plural(diff.months),
-        diff.days, "day" + format_plural(diff.days),
-        " 🎂" if (diff.months == 0 and diff.days == 0) else "")
+        diff.months, "month" + format_plural(diff.months))
 
 
 def format_plural(unit):
@@ -262,7 +259,7 @@ def commit_counter(comment_size):
 
 
 # Values right-align to character column RC (must match build_header.py).
-RC = 56
+RC = 64
 
 
 def _value_len(key):
