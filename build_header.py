@@ -32,7 +32,7 @@ BG = "#16171b"
 FONT_SIZE = 15
 CHAR_W = FONT_SIZE * 0.6                 # JetBrains Mono advance = 0.6em -> 9.0px
 
-H = 590
+H = 568
 V_MARGIN = 30
 PH = H - 2 * V_MARGIN
 PW = round(PH * IMG_W / IMG_H)
@@ -110,16 +110,6 @@ rows.append(kv(y, "Contributed", "00", "contrib_data_dots", "contrib_data")); y 
 rows.append(kv(y, "Stars", "00", "star_data_dots", "star_data")); y += STEP
 rows.append(kv(y, "Commits", "0,000", "commit_data_dots", "commit_data")); y += STEP
 rows.append(kv(y, "Followers", "00", "follower_data_dots", "follower_data")); y += STEP
-rows.append(
-    f'<tspan x="{X}" y="{y}"><tspan class="cc">. </tspan>'
-    f'<tspan class="key">Lines of Code</tspan>:'
-    f'<tspan class="cc"> ( </tspan><tspan class="addColor" id="loc_add">000,000</tspan>'
-    f'<tspan class="addColor">++</tspan><tspan class="cc">, </tspan>'
-    f'<tspan class="delColor" id="loc_del">00,000</tspan><tspan class="delColor">--</tspan>'
-    f'<tspan class="cc"> )</tspan>'
-    f'<tspan class="cc" id="loc_data_dots"> ... </tspan><tspan class="value" id="loc_data">000,000</tspan></tspan>'
-)
-y += STEP
 
 text_block = "\n".join(rows)
 line_block = "\n".join(lines)
