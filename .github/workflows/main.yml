@@ -1,0 +1,55 @@
+name: Update header stats
+
+on:
+  schedule:
+    # Runs every day at 00:17 UTC (odd minute to avoid the top-of-hour rush)
+    - cron: "17 0 * * *"
+  workflow_dispatch:            # allow manual runs from the Actions tab
+  push:
+    branches: [main]
+    paths:
+      - "today.py"
+      - "image.png"
+      - ".github/workflows/main.yml"
+
+# Needed so the workflow can commit the regenerated header.svg back to the repo
+permissions:
+  contents: write
+
+concurrency:
+  group: update-header
+  cancel-in-progress: false
+
+jobs:
+  update-header:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate header stats
+        env:
+          ACCESS_TOKEN: ${{ secrets.ACCESS_TOKEN }}
+          USER_NAME: ${{ github.repository_owner }}
+        run: python today.py
+
+      - name: Commit updated header
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add header.svg cache
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+          else
+            git commit -m "chore: refresh profile header stats"
+            git push
+          fi
