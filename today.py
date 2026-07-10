@@ -261,19 +261,41 @@ def commit_counter(comment_size):
     return sum(int(line.split()[2]) for line in data)
 
 
+# Values right-align to character column RC (must match build_header.py).
+RC = 56
+
+
+def _value_len(key):
+    """justify_format length so a row's value right edge lands at column RC.
+
+    Right edge = prefix + length + 2, with prefix = len('. ' + key + ':').
+    So length = RC - prefix - 2 = RC - len(key) - 5.
+    """
+    return RC - len(key) - 5
+
+
 def svg_overwrite(filename, age_data, commit_data, star_data, repo_data, contrib_data, follower_data, loc_data):
-    """Parses the SVG and rewrites the stat elements by id."""
+    """Parses the SVG and rewrites the stat elements so every value hits column RC."""
     tree = etree.parse(filename)
     root = tree.getroot()
-    justify_format(root, "age_data", age_data, 45)
-    justify_format(root, "commit_data", commit_data, 22)
-    justify_format(root, "star_data", star_data, 14)
-    justify_format(root, "repo_data", repo_data, 6)
-    justify_format(root, "contrib_data", contrib_data)
-    justify_format(root, "follower_data", follower_data, 10)
-    justify_format(root, "loc_data", loc_data[2], 9)
-    justify_format(root, "loc_add", loc_data[0])
-    justify_format(root, "loc_del", loc_data[1], 7)
+    justify_format(root, "age_data", age_data, _value_len("Uptime"))
+    justify_format(root, "repo_data", repo_data, _value_len("Repos"))
+    justify_format(root, "contrib_data", contrib_data, _value_len("Contributed"))
+    justify_format(root, "star_data", star_data, _value_len("Stars"))
+    justify_format(root, "commit_data", commit_data, _value_len("Commits"))
+    justify_format(root, "follower_data", follower_data, _value_len("Followers"))
+    # Lines of Code: total right-aligns to RC; colored diff sits inline before the leader.
+    loc_add, loc_del, loc_total = str(loc_data[0]), str(loc_data[1]), str(loc_data[2])
+    find_and_replace(root, "loc_add", loc_add)
+    find_and_replace(root, "loc_del", loc_del)
+    find_and_replace(root, "loc_data", loc_total)
+    # fixed chars on the line: '. Lines of Code:' (16) + ' ( ' + '++' + ', ' + '--' + ' )' = 27
+    dots_len = RC - 27 - len(loc_add) - len(loc_del) - len(loc_total)
+    if dots_len <= 2:
+        loc_dots = {0: "", 1: " ", 2: ". "}.get(max(0, dots_len), " ")
+    else:
+        loc_dots = " " + ("." * (dots_len - 2)) + " "
+    find_and_replace(root, "loc_data_dots", loc_dots)
     tree.write(filename, encoding="utf-8", xml_declaration=True)
 
 
