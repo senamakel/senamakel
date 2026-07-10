@@ -1,3 +1,9 @@
+<p align="center">
+  <img src="./header.svg" alt="Steven Enamakel — live GitHub profile card" width="100%">
+</p>
+
+<!-- The card above is regenerated daily by .github/workflows/main.yml via today.py -->
+
 # Hi there, I'm **Steven Enamakel** 👋
 
 I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder second. Optimist and workaholic — my philosophy is to build **compounding value**: things that grow faster because they compound with each other, shipped fast.
