@@ -37,3 +37,10 @@ I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder 
 
 ### Philosophy
 > "Build compounding value — things that grow faster because they compound with each other. Ship fast at breakneck speed."
+
+I build on four principles:
+
+1. **Recursive building** — building small things that work really, really well, so that when compounded they add a ton of value.
+2. **Verifiability** — everything is verifiable with unit tests and end-to-end tests, so we always move forward and never move backwards on bugs.
+3. **Agentic simplicity** — everything is agent-friendly, so agents can compound value over time.
+4. **Recursive feedback** — a tight iterative loop where users use the product, give feedback, and that feedback gets incorporated as quickly as possible (as GitHub issues or otherwise).
