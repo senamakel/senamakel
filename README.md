@@ -10,13 +10,14 @@ I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder 
 
 ## Philosophy
 
-> "Build compounding value - things that grow faster because they compound with each other. Ship fast at breakneck speed."
+> [!CAUTION]
+> Avid and Addicted Factorio Player explains his life and his work philosophy. Please tread with caution.
 
 I build on five principles:
 
-1. **Recursive building** - I build small things that work really, really well, so that when combined together, they compounded and add a ton of value. This inspiration comes mainly from the Unix philosophy of building things.
+1. **Recursive building** - I build small things that work really, really well, so that when combined together, they compound and add a ton of value. This inspiration comes mainly from the Unix philosophy of building things.
 2. **Verifiability** - Everything I build is verified with unit tests and end-to-end tests, so we always move forward and never move backwards on bugs. If anything new I build, breaks a test, I have agents go and fix it up. I often spend weekends cleaning up and auditing the tests that I have done.
-3. **Hyper-Parallelization** - everything I write is agent-friendly, so that I can use agents to work on code in parallel at the same time. I'm often spinning up over a thousand agents a day either on my laptop or on the cloud. And I spend a lot of my time in the planning phase to make sure I can build a strong foundation for all of my agents.
+3. **Hyper-Parallelization** - Everything I write is agent-friendly, so that I can use agents to work on code in parallel at the same time. I'm often spinning up over a thousand agents a day either on my laptop or on the cloud. And I spend a lot of my time in the planning phase to make sure I can build a strong foundation for all of my agents.
 4. **Recursive feedback** - Feedback is important. I always build a tight iterative loop where users use the product, give feedback, and that feedback gets incorporated as quickly as possible (as GitHub issues or Linear issues et.).
 5. [**The Factory must grow**](https://www.youtube.com/watch?v=wgc2oAPE4u0) - I'm an avid player of Factorio. I never could imagine that a video game would have so much impact on my life, but here we are. I have probably logged over 2,000 hours in it and it has been one of my driving principles for building and also how I also operate my life.
 
