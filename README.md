@@ -1,46 +1,53 @@
 <p align="center">
-  <img src="./header.png" alt="Steven Enamakel — live GitHub profile card" width="100%">
+  <img src="./header.png" alt="Steven Enamakel - live GitHub profile card" width="100%">
 </p>
 
 <!-- The card above is regenerated daily by .github/workflows/main.yml (today.py -> render.py) -->
 
 # Hi there, I'm **Steven Enamakel** 👋
 
-I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder second. Optimist and workaholic — my philosophy is to build **compounding value**: things that grow faster because they compound with each other, shipped fast.
+I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder second. Optimist and workaholic.
+
+## Philosophy
+
+> "Build compounding value - things that grow faster because they compound with each other. Ship fast at breakneck speed."
+
+I build on five principles:
+
+1. **Recursive building** - I build small things that work really, really well, so that when combined together, they compounded and add a ton of value. This inspiration comes mainly from the Unix philosophy of building things.
+2. **Verifiability** - Everything I build is verified with unit tests and end-to-end tests, so we always move forward and never move backwards on bugs. If anything new I build, breaks a test, I have agents go and fix it up. I often spend weekends cleaning up and auditing the tests that I have done.
+3. **Agentic simplicity** - everything I write is agent-friendly, so agents can compound value over time. I often write templates for my many projects and I often spend a lot of my time in the planning phase making sure I can build a strong foundation for all of my agents.
+4. **Recursive feedback** - Feedback is important. I always build a tight iterative loop where users use the product, give feedback, and that feedback gets incorporated as quickly as possible (as GitHub issues or Linear issues et.).
+5. **The Factory must grow** - I'm an avid player of Factorio, one of the best games that I've ever played in my life, and I have probably logged over 2,000 hours in it. Factorio has been one of my driving principles for building and how I also operate my life. I never could imagine that a video game would have so much impact on my life, but here we are.
 
 ## Projects
-- 🧠 [**OpenHuman**](https://github.com/tinyhumansai/openhuman) — Open-source personalized AI super-intelligence. Private, simple, powerful. (Rust)
-- 🏦 [**ZeroLend**](https://github.com/zerolend/) — Lending protocol for layer-2 blockchains (Linea, zkSync, Blast, Manta).
-- 🪙 [**Maha Stablecoin**](https://github.com/mahaxyz) — Protocol contracts and DeFi primitives. Creator of MahaDAO / the ARTH valuecoin.
+
+- 🧠 [**OpenHuman**](https://github.com/tinyhumansai/openhuman) - Open-source personalized AI super-intelligence. Private, simple, powerful. (Rust)
+- 🏦 [**ZeroLend**](https://github.com/zerolend/) - Lending protocol for layer-2 blockchains (Linea, zkSync, Blast, Manta).
+- 🪙 [**Maha Stablecoin**](https://github.com/mahaxyz) - Protocol contracts and DeFi primitives. Creator of MahaDAO / the ARTH valuecoin.
 
 ## Other Open-Source Projects
-- 🤖 [TinyAgents](https://github.com/tinyhumansai/tinyagents) — A recursive language-model (RLM) harness for Rust. OpenHuman's core agent harness.
-- 🧬 [TinyCortex](https://github.com/tinyhumansai/tinycortex/) — OpenHuman's memory engine, built as a Rust module.
-- 🔀 [TinyFlows](https://github.com/tinyhumansai/tinyflows/) — OpenHuman's workflow management infra.
+
+- 🤖 [TinyAgents](https://github.com/tinyhumansai/tinyagents) - A recursive language-model (RLM) harness for Rust. OpenHuman's core agent harness.
+- 🧬 [TinyCortex](https://github.com/tinyhumansai/tinycortex/) - OpenHuman's memory engine, built as a Rust module.
+- 🔀 [TinyFlows](https://github.com/tinyhumansai/tinyflows/) - OpenHuman's workflow management infra.
 
 ## GitHub Activity
+
 ![GitHub Contribution Graph](https://gitlyy.vercel.app/api/contribution?username=senamakel&hide_border=true)
 
 ## Connect
-- 𝕏 [X — @senamakel](https://x.com/senamakel)
-- 📸 [Instagram — @stevenenamakel](https://www.instagram.com/stevenenamakel/)
-- ✍️ [Medium — @enamakel](https://medium.com/@enamakel)
-- 🌳 [Linktree — linktr.ee/enamakel](https://linktr.ee/enamakel)
-- 👤 [about.me — about.me/enamakel](https://about.me/enamakel)
-- 🐙 [GitHub — @senamakel](https://github.com/senamakel)
+
+- 𝕏 [X - @senamakel](https://x.com/senamakel)
+- 📸 [Instagram - @stevenenamakel](https://www.instagram.com/stevenenamakel/)
+- ✍️ [Medium - @enamakel](https://medium.com/@enamakel)
+- 🌳 [Linktree - linktr.ee/enamakel](https://linktr.ee/enamakel)
+- 👤 [about.me - about.me/enamakel](https://about.me/enamakel)
+- 🐙 [GitHub - @senamakel](https://github.com/senamakel)
 
 ---
 
 ### Media
-- 🎥 [**Interview: The Creator of MahaDAO**](https://www.youtube.com/watch?v=pQef4I0hGj8) — On building the world's first non-depreciating valuecoin (ARTH) in a community-governed ecosystem.
-- 🎙️ [**Matic AMA Recap — MahaDAO Co-Founders**](https://piusimax.medium.com/matic-ama-recap-with-mahadao-co-founders-steven-enamakel-and-pranay-sanghavi-c5cf7f6504a7) — Live AMA on MahaDAO's infrastructure and the valuecoin thesis.
 
-### Philosophy
-> "Build compounding value — things that grow faster because they compound with each other. Ship fast at breakneck speed."
-
-I build on four principles:
-
-1. **Recursive building** — building small things that work really, really well, so that when compounded they add a ton of value.
-2. **Verifiability** — everything is verifiable with unit tests and end-to-end tests, so we always move forward and never move backwards on bugs.
-3. **Agentic simplicity** — everything is agent-friendly, so agents can compound value over time.
-4. **Recursive feedback** — a tight iterative loop where users use the product, give feedback, and that feedback gets incorporated as quickly as possible (as GitHub issues or otherwise).
+- 🎥 [**Interview: The Creator of MahaDAO**](https://www.youtube.com/watch?v=pQef4I0hGj8) - On building the world's first non-depreciating valuecoin (ARTH) in a community-governed ecosystem.
+- 🎙️ [**Matic AMA Recap - MahaDAO Co-Founders**](https://piusimax.medium.com/matic-ama-recap-with-mahadao-co-founders-steven-enamakel-and-pranay-sanghavi-c5cf7f6504a7) - Live AMA on MahaDAO's infrastructure and the valuecoin thesis.
