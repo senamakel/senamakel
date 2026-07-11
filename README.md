@@ -18,7 +18,7 @@ I build on five principles:
 2. **Verifiability** - Everything I build is verified with unit tests and end-to-end tests, so we always move forward and never move backwards on bugs. If anything new I build, breaks a test, I have agents go and fix it up. I often spend weekends cleaning up and auditing the tests that I have done.
 3. **Hyper-Parallelization** - everything I write is agent-friendly, so that I can use agents to work on code in parallel at the same time. I'm often spinning up over a thousand agents a day either on my laptop or on the cloud. And I spend a lot of my time in the planning phase to make sure I can build a strong foundation for all of my agents.
 4. **Recursive feedback** - Feedback is important. I always build a tight iterative loop where users use the product, give feedback, and that feedback gets incorporated as quickly as possible (as GitHub issues or Linear issues et.).
-5. [**The Factory must grow**](https://www.youtube.com/watch?v=wgc2oAPE4u0) - I'm an avid player of Factorio, one of the best games that I've ever played in my life, and I have probably logged over 2,000 hours in it. Factorio has been one of my driving principles for building and how I also operate my life. I never could imagine that a video game would have so much impact on my life, but here we are.
+5. [**The Factory must grow**](https://www.youtube.com/watch?v=wgc2oAPE4u0) - I'm an avid player of Factorio. I never could imagine that a video game would have so much impact on my life, but here we are. I have probably logged over 2,000 hours in it and it has been one of my driving principles for building and also how I also operate my life.
 
 ## Projects
 
