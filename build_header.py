@@ -32,7 +32,7 @@ BG = "#16171b"
 FONT_SIZE = 15
 CHAR_W = FONT_SIZE * 0.6                 # JetBrains Mono advance = 0.6em -> 9.0px
 
-H = 568
+H = 634
 V_MARGIN = 30
 PH = H - 2 * V_MARGIN
 PW = round(PH * IMG_W / IMG_H)
@@ -89,7 +89,10 @@ rows.append(kv(y, "OS", "macOS, DigitalOcean")); y += STEP
 rows.append(kv(y, "Uptime", "XX years, XX months", "age_data_dots", "age_data")); y += STEP
 rows.append(kv(y, "Host", "Builder first, founder second")); y += STEP
 rows.append(kv(y, "Kernel", "Computer Science · Math · Economics")); y += STEP
-rows.append(kv(y, "Languages", "Hindi, English, Malayalam, Arabic")); y += STEP
+rows.append(kv(y, "i18n", "Hindi, English, Malayalam, Arabic")); y += STEP
+rows.append(kv(y, "Variant", "extreme introvert (single-threaded by design)")); y += STEP
+rows.append(kv(y, "Scheduler", "long deep-work blocks, minimal context-switching")); y += STEP
+rows.append(kv(y, "Runlevel", "peak throughput 22:00-04:00 (night owl)")); y += STEP
 y += STEP
 
 rows.append(section(y, "AFK")); y += STEP
