@@ -10,8 +10,8 @@ I'm an engineer specializing in deep-tech, web3, and AI. Builder first, founder 
 
 ## Philosophy
 
-> [!CAUTION]
-> **🚧 Factorio Nerd Ahead** Weird philoppher vibes ahead from an incredibly addicted [Factorio](http://factorio.com/) player. Please tread with caution. Slopes can be slippery.
+> [!WARNING]
+> **🚧 Factorio Nerd Ahead**. Weird philoppher vibes ahead from an incredibly addicted [Factorio](http://factorio.com/) player. Please tread with caution. Slopes can be slippery.
 
 I build on five principles:
 
