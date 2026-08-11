@@ -26,15 +26,16 @@ I document my Factorio life lessons over [here](https://github.com/senamakel/sen
 - 🥰 [**OpenHuman**](https://github.com/tinyhumansai/openhuman) - Open-source personalized AI super-intelligence. Private, simple, powerful. (Rust)
 - 🧠 [**Medulla**](https://github.com/tinyhumansai/medulla) - (WIP) An LLM designed to focus on high-concurrency orchestration.
 - 🦄 [**OpenCompany**](https://github.com/tinyhumansai/opencompany) - (WIP) An open-source (GNU) framework to build a one-person, billion-dollar startup (Unicorn) 🦄
-- 🤝 [**OpenTeams**](https://github.com/tinyhumansai/openteams) - (WIP) Coordinate & orchestrate agents between teams/organizations with a unified memory. Enterprise ready.
-- 🏦 [**ZeroLend**](https://github.com/zerolend/) - Lending protocol for layer-2 blockchains (Linea, zkSync, Blast, Manta).
-- 🪙 [**Maha Stablecoin**](https://github.com/mahaxyz) - Protocol contracts and DeFi primitives. Creator of MahaDAO / the ARTH valuecoin.
 
-## Other Open-Source Projects
+## Other Projects & My Previous Work
 
-- 🤖 [TinyAgents](https://github.com/tinyhumansai/tinyagents) - A recursive language-model (RLM) harness for Rust. OpenHuman's core agent harness.
-- 🧬 [TinyCortex](https://github.com/tinyhumansai/tinycortex/) - OpenHuman's memory engine, built as a Rust module.
-- 🔀 [TinyFlows](https://github.com/tinyhumansai/tinyflows/) - OpenHuman's workflow management infra.
+- [TinyAgents](https://github.com/tinyhumansai/tinyagents) - A recursive language-model (RLM) harness for Rust. OpenHuman's core agent harness.
+- [TinyCortex](https://github.com/tinyhumansai/tinycortex/) - OpenHuman's memory engine built as a rust module.
+- [TinyFlows](https://github.com/tinyhumansai/tinyflows/) - Run n8n/Zapier inspired workflows in OpenHuman.
+- [TinyJuice](https://github.com/tinyhumansai/tinyjuice/) - A juicy token compression algorithm. Compress upto 95% of tokens without any loss. Written in rust.
+- [TinyChannels](https://github.com/tinyhumansai/tinychannels/) - All the various messaging channels for OpenHuman
+- [**ZeroLend**](https://github.com/zerolend/) - Lending protocol for layer-2 blockchains (Linea, zkSync, Blast, Manta).
+- [**Maha Stablecoin**](https://github.com/mahaxyz) - Protocol contracts and DeFi primitives. Creator of MahaDAO / the ARTH valuecoin.
 
 ## GitHub Activity
 
