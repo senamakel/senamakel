@@ -1,6 +1,4 @@
-<p align="center">
-  <img src="./header.png" alt="Steven Enamakel - live GitHub profile card" width="100%">
-</p>
+![GitHub Contribution Graph](https://gitlyy.vercel.app/api/contribution?username=senamakel&hide_border=true)
 
 <!-- The card above is regenerated daily by .github/workflows/main.yml (today.py -> render.py) -->
 
@@ -37,9 +35,6 @@ I document my Factorio life lessons over [here](https://github.com/senamakel/sen
 - [**ZeroLend**](https://github.com/zerolend/) - Lending protocol for layer-2 blockchains (Linea, zkSync, Blast, Manta).
 - [**Maha Stablecoin**](https://github.com/mahaxyz) - Protocol contracts and DeFi primitives. Creator of MahaDAO / the ARTH valuecoin.
 
-## GitHub Activity
-
-![GitHub Contribution Graph](https://gitlyy.vercel.app/api/contribution?username=senamakel&hide_border=true)
 
 ## Connect
 
